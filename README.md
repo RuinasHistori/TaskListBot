@@ -1,78 +1,76 @@
-![img](/img.jpg)
+<img src="/img.jpg" alt="img" width="200"/>
 
 # TaskListBot
 
-![TaskListBot](https://example.com/path/to/your/image.png)
+TaskListBot - это телеграм-бот для управления задачами. Он позволяет пользователям добавлять, удалять и просматривать задачи, а также уведомляет администраторов о новых задачах.
 
-TaskListBot is a Telegram bot for managing tasks. It allows users to add, delete, and view tasks, and also notifies administrators about new tasks.
+## Оглавление
 
-## Table of Contents
+- [Функции](#функции)
+- [Установка](#установка)
+- [Использование](#использование)
+- [Настройка](#настройка)
+- [Зависимости](#зависимости)
+- [Вклад в проект](#вклад-в-проект)
+- [Лицензия](#лицензия)
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
+## Функции
 
-## Features
+- Добавление новых задач
+- Просмотр списка задач
+- Удаление задач
+- Уведомление администраторов о новых задачах
 
-- Add new tasks
-- View task list
-- Delete tasks
-- Notify administrators about new tasks
+## Установка
 
-## Installation
-
-1. Clone the repository:
+1. Клонируйте репозиторий:
 
 ```bash
 git clone https://github.com/yourusername/TaskListBot.git
 ```
 
-2. Navigate to the project directory:
+2. Перейдите в директорию проекта:
 
 ```bash
 cd TaskListBot
 ```
 
-3. Install the necessary dependencies:
+3. Установите необходимые зависимости:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Usage
+## Использование
 
-Run the bot:
+Запустите бота:
 
 ```bash
 python bot.py
 ```
 
-## Configuration
+## Настройка
 
-1. Create a `.env` file and add your Telegram bot token:
+1. Создайте файл `.env` и добавьте ваш токен телеграм-бота:
 
 ```
 TOKEN=YOUR_BOT_TOKEN
 ```
 
-2. Add the authorized user IDs:
+2. Добавьте идентификаторы разрешенных пользователей:
 
 ```python
-ALLOWED_USERS = {123456789, 987654321}  # Replace with the actual user IDs
+ALLOWED_USERS = {123456789, 987654321}  # Замените идентификаторы на нужные вам
 ```
 
-## Dependencies
+## Зависимости
 
 - [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI)
 
-## Contributing
+## Вклад в проект
 
-We welcome contributions! If you have suggestions for improvement or have found a bug, please create an issue or submit a pull request.
+Мы приветствуем вклад в проект! Если у вас есть предложения по улучшению или вы нашли ошибку, пожалуйста, создайте issue или отправьте pull request.
 
-## License
+## Лицензия
 
-This project is licensed under the terms of the MIT License. See the LICENSE file for more information.
+Этот проект лицензируется в соответствии с условиями лицензии MIT. См. файл LICENSE для получения дополнительной информации.
