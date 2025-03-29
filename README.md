@@ -26,7 +26,7 @@ TaskListBot - это телеграм-бот для управления зад�
 1. Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/yourusername/TaskListBot.git
+git clone https://github.com/RuinasHistori/TaskListBot
 ```
 
 2. Перейдите в директорию проекта:
